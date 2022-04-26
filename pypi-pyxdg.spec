@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyxdg
 Version  : 0.27
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/6f/2e/2251b5ae2f003d865beef79c8fcd517e907ed6a69f58c32403cec3eba9b2/pyxdg-0.27.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6f/2e/2251b5ae2f003d865beef79c8fcd517e907ed6a69f58c32403cec3eba9b2/pyxdg-0.27.tar.gz
 Summary  : PyXDG contains implementations of freedesktop.org standards in python.
@@ -14,9 +14,6 @@ Requires: pypi-pyxdg-license = %{version}-%{release}
 Requires: pypi-pyxdg-python = %{version}-%{release}
 Requires: pypi-pyxdg-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pyxdg
-Provides: pyxdg-python
-Provides: pyxdg-python3
 
 %description
 The XDG Package contains:
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641487125
+export SOURCE_DATE_EPOCH=1651015827
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto -fstack-protector-strong -fzero-call-used-regs=used "
 export FCFLAGS="$FFLAGS -fno-lto -fstack-protector-strong -fzero-call-used-regs=used "
